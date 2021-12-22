@@ -8,7 +8,7 @@ describe 'MOTD' do
       it { should be_owned_by 'root' }
       it { should be_grouped_into 'root' }
       its(:content) do
-        should match(/Welcome Assurity DevOps/)
+        should match(/Hello Assurity DevOps/)
       end
     end
 
